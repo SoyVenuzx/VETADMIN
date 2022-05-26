@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VETadmin | Inicio</title>
+
+    <!-- CSS Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome 6.1.1-->
+    <link href="./css/all.min.css" rel="stylesheet" />
+
+    <!-- Google Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hoja de estilo personalizada -->
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="d-flex">
+      <div id="sidebar-container" class="bg-primary">
+        <div class="logo text-light fw-bold">VETadmin</div>
+
+        <div class="menu">
+          <a href="#" class="d-block p-3 text-light fw-bold"
+            ><i class="fa-solid fa-house lead"></i> Inicio</a
+          >
+          <a href="#" class="d-block p-3 text-light fw-bold"
+            ><i class="fa-solid fa-users lead"></i> Clientes</a
+          >
+          <a href="#" class="d-block p-3 text-light fw-bold"
+            ><i class="fa-solid fa-hand-holding-medical lead"></i> Consultas</a
+          >
+          <a href="#" class="d-block p-3 text-light fw-bold"
+            ><i class="fa-solid fa-capsules lead"></i> Farmacias</a
+          >
+        </div>
+      </div>
+
+      <div class="w-100">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="imagenes/OIP.jfif"
+                      class="img-fluid rounded-circle mr-2 avatar"
+                    />
+                    Gisselle Calero
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!--contenido principal-->
+        <div id="contenido" class="pt-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h4>Bienvenido Gisselle Calero</h4>
+              </div>
+            </div>
+
+            <div class="row mt-4 p-2">
+              <div class="col-12">
+                <h4 class="text-grey">Informaciòn de Interès</h4>
+              </div>
+            </div>
+            <!--Cards-->
+            <div class="row p-2">
+              <!--card 1-->
+              <div class="col-md-4">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6">
+                        <h5 class="card-title">Pacientes<br />Atendidos</h5>
+                      </div>
+                      <div class="col-4">
+                        <h2 class="fw-bold text-center display-6">8</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--card 2-->
+              <div class="col-md-4">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6">
+                        <h5 class="card-title">Facturas<br />Emitidas</h5>
+                      </div>
+                      <div class="col-4">
+                        <h2 class="fw-bold text-center display-6">18</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--card 3-->
+              <div class="col-md-4">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6">
+                        <h5 class="card-title">Pacientes<br />ingresados</h5>
+                      </div>
+                      <div class="col-4">
+                        <h2 class="fw-bold text-center display-6">16</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3 p-2">
+                <div class="col-12">
+                  <h4 class="text-grey">Accesos Ràpidos</h4>
+                </div>
+              </div>
+
+              <!--Botonera Accesos ràpidos-->
+              <div class="row">
+                <!--boton 1-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+
+                <!--Boton 2-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+
+                <!--boton 3-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+
+                <!--Boton 4-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+
+                <!--Boton 5-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+
+                <!--Boton 6-->
+                <div class="col md-3">
+                  <button class="btn btn-success btn-lg text-start fw-bold">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fa-solid fa-plus display-6 align-middle"></i>
+                      </div>
+                      <div class="col-6">Admisionar Pacientes</div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

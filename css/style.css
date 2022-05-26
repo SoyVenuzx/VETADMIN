@@ -1,0 +1,60 @@
+:root {
+    --primary: #512DA8;
+    --light: #D1C4E9;
+    --grey: #757575;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+.logo {
+    font-size: 1.8rem;
+    padding: 0.875rem 1.25rem;
+}
+
+.menu {
+    width: 18rem;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.avatar {
+    max-width: 32px;
+}
+
+.container {
+    color: var(--primary);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.btn {
+    background-color:var(--primary);
+    border-color: var(--light);
+    color: #ffffff;
+}
+
+.card {
+    border-color: var(--light);
+}
+
+.card-title {
+    font-weight: bold;
+}
